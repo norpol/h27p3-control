@@ -1,0 +1,15 @@
+[package]
+name = "h27p3-control"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+description = "Native GTK controls for the KTC H27P3 monitor"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/norpol/h27p3-control"
+publish = false
+
+# System GTK/libadwaita are supplied by Nix. No Cargo registry dependencies.
+[profile.release]
+strip = true
+lto = true

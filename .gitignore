@@ -1,0 +1,18 @@
+/target
+/result*
+__pycache__/
+*.pyc
+/core
+/core.*
+
+# Local configuration, hardware captures, and vendor analysis artifacts.
+.env
+.env.*
+*.log
+*.jsonl
+/captures/
+/research-artifacts/
+*.exe
+*.dll
+*.bin
+*.zip
